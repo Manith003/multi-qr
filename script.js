@@ -23,7 +23,7 @@ document.getElementById("linkForm").onsubmit = async (e) => {
       companyName,
       links 
     });
-    const previewUrl = `https://${companyName}.manith003.github.io/multi-qr/preview.html?id=${docRef.id}`;
+    const previewUrl = `https://manith003.github.io/multi-qr/preview.html?id=${docRef.id}`;
     //https://manith003.github.io/qr-project
 
     // Generate QR as PNG
